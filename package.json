@@ -1,0 +1,51 @@
+{
+    "name": "pitch-page",
+    "version": "1.0.0",
+    "description": "",
+    "main": "login.js",
+    "scripts": {
+        "start": "webpack-dev-server --mode development",
+        "build": "webpack --mode development",
+        "deploy": "env NODE_ENV=production webpack --mode production",
+        "watch": "npm-watch build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "watch": {
+        "build": {
+            "patterns": [
+                "src"
+            ],
+            "extensions": "js,jsx",
+            "quiet": false
+        }
+    },
+    "author": "Croquet Corporation",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/plugin-transform-runtime": "^7.16.0",
+        "react": "^17.0.1",
+        "react-bootstrap": "^1.4.0",
+        "react-dom": "^17.0.1",
+        "react-reconciler": "^0.26.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/preset-react": "^7.10.4",
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^5.0.1",
+        "eslint-plugin-react": "^7.21.3",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "file-loader": "^6.2.0",
+        "firebase-admin": "^9.4.2",
+        "firebase-functions": "^3.13.0",
+        "firebase-functions-test": "^0.2.3",
+        "npm-watch": "^0.7.0",
+        "react-refresh": "^0.9.0",
+        "style-loader": "^2.0.0",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pitch Board Duplicator</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-functions.js"></script>
+    <style>
+      html,body {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="user-page"></div>
+    <div id="croquet-root" style="display: none; height: 100%"></div>
+    <script type="module" src="./src/duplicator.js"></script>
+  </body>
+</html>

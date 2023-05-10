@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <link rel="icon" type="image/png" href="./icon.png">
+    <meta charset="utf-8" />
+    <title>Croquet Greenlight Sign-in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./thirdparty/bootstrap.min.css" />
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.7.3/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.7.1/firebase-ui-auth.css" />
+    <link type="text/css" rel="stylesheet" href="./src/login.css" />
+    <script type="module" src="./src/login.js"></script>
+</head>
+
+<body>
+    <div id="login-container" class="login-container p-5">
+        <div class="row px-5">
+            <div class="col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-12 col-12 rightBg d-flex justify-content-center align-items-center">
+                        <div class="login">
+                            <img class="loginLogo" src="./assets/bitmaps/greenlight-logo.jpg">
+                            <p class="loginTitle">Sign in to Croquet Greenlight</p>
+                            <div id="firebaseui-auth-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

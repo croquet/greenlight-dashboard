@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./icon.png">
+        <title>Croquet Greenlight</title>
+
+        <svg display="none">
+            <defs>
+                <g id="img-add">
+                    <g xmlns="http://www.w3.org/2000/svg" fill="none" fill-rule="evenodd"><path fill="#077751" d="M19 13L13 13 13 19 11 19 11 13 5 13 5 11 11 11 11 5 13 5 13 11 19 11z"/><path d="M0 0H24V24H0z"/></g>
+                </g>
+                <g id="img-more">
+                    <g xmlns="http://www.w3.org/2000/svg" fill="none" fill-rule="evenodd"><path fill="#424242" d="M12,8 C13.1,8 14,7.1 14,6 C14,4.9 13.1,4 12,4 C10.9,4 10,4.9 10,6 C10,7.1 10.9,8 12,8 Z M12,10 C10.9,10 10,10.9 10,12 C10,13.1 10.9,14 12,14 C13.1,14 14,13.1 14,12 C14,10.9 13.1,10 12,10 Z M12,16 C10.9,16 10,16.9 10,18 C10,19.1 10.9,20 12,20 C13.1,20 14,19.1 14,18 C14,16.9 13.1,16 12,16 Z"/><path d="M0 0H24V24H0z"/></g>
+                </g>
+            </defs>
+        </svg>
+
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0px;
+            }
+        </style>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-functions.js"></script>
+        <link id="user-css" rel="stylesheet" href="./src/user.css" />
+        <script id="font-awesome" src="https://kit.fontawesome.com/8b415c86d8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="user-page"></div>
+        <div id="croquet-root" style="display: none; height: 100%; margin: 0px"></div>
+        <script src="./build/user.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.row,
+.col-12 {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.clear {
+    height: 2vh;
+}
+
+img.logologin {
+    width: 40%;
+}
+
+.login-container {
+    height: 100vh;
+    background-image: url(../assets/bitmaps/topo-pattern_lt-gray-s.png);
+}
+
+.leftBg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
+.rightBg {
+    background-color: white;
+    height: 75vh;
+}
+
+@media screen and (max-width: 991px) {
+    .leftBg {
+        display: none;
+    }
+
+    .mobileLogo {
+        display: block;
+    }
+
+    .login {
+        padding-top: 5vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .login {
+        height: 60vh;
+        padding-top: 10vh;
+    }
+
+    .mobileLogo {
+        display: none;
+    }
+}
+
+.mobileLogo {
+    width: 40%;
+}
+
+.loginTitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.loginLogo {
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+.firebaseui-idp-list,
+.firebaseui-tenant-list {
+    padding-top: 20px;
+}
